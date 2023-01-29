@@ -15,12 +15,12 @@ struct AppetizerCellView: View {
         HStack {
             AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 150, height: 100)
+                .frame(width: 90, height: 70)
                 .cornerRadius(8)
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)
-                    .font(.title2)
+                    .font(.title3)
                     .fontWeight(.medium)
                 
                 Text("$\(appetizer.price, specifier: "%.2f")")

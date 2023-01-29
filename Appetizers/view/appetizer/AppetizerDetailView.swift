@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AppetizerDetailView: View {
+    @EnvironmentObject var order: Order
+    
     let appetizer: Appetizer
     @Binding var isShowingDetails: Bool
     
@@ -32,7 +34,14 @@ struct AppetizerDetailView: View {
             
             Spacer()
             
-            AddToCartButton(appetizer: appetizer)
+            Button{
+                order.add(appetizer)
+                isShowingDetails = false
+            } label: {
+                let buttonLabel = "$\(appetizer.price) - Add to cart"
+                AppMainButton(title: buttonLabel)
+                    .padding()
+            }
         }
         .frame(width: 300, height: 525)
         .background(Color(.systemBackground))

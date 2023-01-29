@@ -9,23 +9,26 @@ import SwiftUI
 
 struct AppetizerTabView: View {
     var body: some View {
-        
         TabView {
+
             AppetizerListView()
                 .tabItem{
                     Image(systemName: "house")
                     Text("Home")
                 }
-            AccountView()
-                .tabItem{
-                    Image(systemName: "person")
-                    Text("Account")
-                }
+            
             OrderView()
                 .tabItem{
                     Image(systemName: "basket")
                     Text("Order")
                 }
+            
+            AccountView()
+                .tabItem{
+                    Image(systemName: "person")
+                    Text("Account")
+                }
+            
         }
         .accentColor(Color.brandPrimary)
     }
