@@ -1,3 +1,3 @@
 # Appetizers
 
-Restouran menu ordering application
+Restaurant menu ordering application
