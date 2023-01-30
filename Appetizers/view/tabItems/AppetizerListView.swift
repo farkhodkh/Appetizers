@@ -20,6 +20,7 @@ struct AppetizerListView: View {
                 
                 List(viewModel.appetizers) { appetizer in
                     AppetizerCellView(appetizer: appetizer)
+                        .listRowSeparatorTint(.brandPrimary)
                         .onTapGesture {
                             selectedAppetizer = appetizer
                             isShowingDetails = true
