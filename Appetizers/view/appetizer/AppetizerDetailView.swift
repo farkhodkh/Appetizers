@@ -39,9 +39,10 @@ struct AppetizerDetailView: View {
                 isShowingDetails = false
             } label: {
                 let buttonLabel = "$\(appetizer.price) - Add to cart"
-                AppMainButton(title: buttonLabel)
-                    .padding()
+                Text(buttonLabel)
             }
+            .modifier(AppButtonModifier())
+            .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
         .background(Color(.systemBackground))

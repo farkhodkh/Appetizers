@@ -17,7 +17,7 @@ struct MockData{
         imageURL: "",
         protein: 14,
         carbs: 0,
-        price: 8.99,
+        price: 8.99348,
         calories: 300
     )
 

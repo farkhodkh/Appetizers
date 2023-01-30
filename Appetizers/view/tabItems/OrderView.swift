@@ -22,14 +22,15 @@ struct OrderView: View {
                         .onDelete(perform: order.remove)
                     }
                     .listStyle(PlainListStyle())
-
+                    
                     Button {
-
+                        
                     } label: {
                         let buttonLabel = "$\(order.totalPrice) - Add to cart"
-                        AppMainButton(title: buttonLabel)
+                        Text(buttonLabel)
                     }
-                    
+                    .modifier(AppButtonModifier())
+                    .padding(.bottom, 30)
                 }
                 .navigationTitle("🚟 Order")
                 

@@ -33,6 +33,7 @@
 		E865E4FD2986F6C00074B4C4 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4FC2986F6C00074B4C4 /* MockData.swift */; };
 		E865E4FF2986FEC20074B4C4 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4FE2986FEC20074B4C4 /* EmptyState.swift */; };
 		E865E5012987028C0074B4C4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E5002987028C0074B4C4 /* Order.swift */; };
+		E865E504298713310074B4C4 /* AppButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E503298713310074B4C4 /* AppButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		E865E4FC2986F6C00074B4C4 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		E865E4FE2986FEC20074B4C4 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		E865E5002987028C0074B4C4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E865E503298713310074B4C4 /* AppButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		E865E4D1297E91120074B4C4 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E865E502298713130074B4C4 /* modifiers */,
 				E865E4EF298541A20074B4C4 /* buttons */,
 				E865E4EA29853AB90074B4C4 /* appetizer */,
 				E865E4D2297E91270074B4C4 /* tabItems */,
@@ -213,6 +216,14 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		E865E502298713130074B4C4 /* modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E865E503298713310074B4C4 /* AppButtonModifier.swift */,
+			);
+			path = modifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,6 +313,7 @@
 				E865E4EC29853AD30074B4C4 /* AppetizerDetailView.swift in Sources */,
 				E865E4DB297EB7540074B4C4 /* NetworkManager.swift in Sources */,
 				E865E5012987028C0074B4C4 /* Order.swift in Sources */,
+				E865E504298713310074B4C4 /* AppButtonModifier.swift in Sources */,
 				E865E4D8297EB6690074B4C4 /* AppetizerCellView.swift in Sources */,
 				E865E4BE297D7B8D0074B4C4 /* AppetizersApp.swift in Sources */,
 				E865E4D0297E8C330074B4C4 /* OrderView.swift in Sources */,
