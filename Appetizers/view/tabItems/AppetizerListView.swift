@@ -30,7 +30,7 @@ struct AppetizerListView: View {
                 .navigationTitle("🍟 Appetizers")
                 .disabled(isShowingDetails)
             }
-            .onAppear{
+            .task {
                 viewModel.updateAppetizersArray()
             }
             .blur(

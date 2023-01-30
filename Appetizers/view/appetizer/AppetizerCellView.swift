@@ -13,11 +13,27 @@ struct AppetizerCellView: View {
     
     var body: some View {
         HStack {
-            AppetizerRemoteImage(urlString: appetizer.imageURL)
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 90, height: 70)
-                .cornerRadius(8)
-
+            
+            AsyncImage(url: URL(string: appetizer.imageURL)) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 90, height: 70)
+                    .cornerRadius(8)
+            } placeholder: {
+                Image("food-placeholder")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 90, height: 70)
+                    .cornerRadius(8)
+            }
+            
+            //MARK: This kind of Image uses cashing feature
+//            AppetizerRemoteImage(urlString: appetizer.imageURL)
+//                .aspectRatio(contentMode: .fill)
+//                .frame(width: 90, height: 70)
+//                .cornerRadius(8)
+//
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)
                     .font(.title3)
