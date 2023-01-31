@@ -25,7 +25,6 @@
 		E865E4E929846E1A0074B4C4 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4E829846E1A0074B4C4 /* RemoteImage.swift */; };
 		E865E4EC29853AD30074B4C4 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4EB29853AD30074B4C4 /* AppetizerDetailView.swift */; };
 		E865E4EE298541600074B4C4 /* AppetizerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4ED298541600074B4C4 /* AppetizerContentView.swift */; };
-		E865E4F1298541B40074B4C4 /* AppMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4F0298541B40074B4C4 /* AppMainButton.swift */; };
 		E865E4F3298542060074B4C4 /* CloseViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4F2298542060074B4C4 /* CloseViewButton.swift */; };
 		E865E4F52986AA550074B4C4 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4F42986AA550074B4C4 /* AccountViewModel.swift */; };
 		E865E4F82986ABEA0074B4C4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E865E4F72986ABEA0074B4C4 /* String.swift */; };
@@ -56,7 +55,6 @@
 		E865E4E829846E1A0074B4C4 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		E865E4EB29853AD30074B4C4 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		E865E4ED298541600074B4C4 /* AppetizerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerContentView.swift; sourceTree = "<group>"; };
-		E865E4F0298541B40074B4C4 /* AppMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainButton.swift; sourceTree = "<group>"; };
 		E865E4F2298542060074B4C4 /* CloseViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseViewButton.swift; sourceTree = "<group>"; };
 		E865E4F42986AA550074B4C4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		E865E4F72986ABEA0074B4C4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 		E865E4BC297D7B8D0074B4C4 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				E865E4FB2986F6A20074B4C4 /* Mock */,
 				E865E4DC297EB9780074B4C4 /* common */,
 				E865E4D1297E91120074B4C4 /* view */,
 				E865E4D3297E91360074B4C4 /* viewModel */,
@@ -106,6 +103,7 @@
 				E865E4BD297D7B8D0074B4C4 /* AppetizersApp.swift */,
 				E865E4C1297D7B8E0074B4C4 /* Assets.xcassets */,
 				E865E4C3297D7B8E0074B4C4 /* Preview Content */,
+				E865E4FB2986F6A20074B4C4 /* Mock */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -202,7 +200,6 @@
 		E865E4EF298541A20074B4C4 /* buttons */ = {
 			isa = PBXGroup;
 			children = (
-				E865E4F0298541B40074B4C4 /* AppMainButton.swift */,
 				E865E4F2298542060074B4C4 /* CloseViewButton.swift */,
 			);
 			path = buttons;
@@ -299,7 +296,6 @@
 				E865E4D6297E931E0074B4C4 /* Appetizer.swift in Sources */,
 				E865E4F82986ABEA0074B4C4 /* String.swift in Sources */,
 				E865E4DE297EB9890074B4C4 /* APError.swift in Sources */,
-				E865E4F1298541B40074B4C4 /* AppMainButton.swift in Sources */,
 				E865E4CE297E8C1A0074B4C4 /* AccountView.swift in Sources */,
 				E865E4E729830E5C0074B4C4 /* Color.swift in Sources */,
 				E865E4E429830C8F0074B4C4 /* ActivityIndicator.swift in Sources */,

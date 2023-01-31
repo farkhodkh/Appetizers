@@ -8,8 +8,7 @@
 import Foundation
 
 struct MockData{
-    //{"calories":300,"price":8.99,"id":1,"description":"This perfectly thin cut just melts in your mouth.","carbs":0,"protein":14,"imageURL":"https:\/\/seanallen-course-backend.herokuapp.com\/images\/appetizers\/asian-flank-steak.jpg","name":"Asian Flank Steak"}
-    
+
     static let sampleAppetizer = Appetizer(
         id: 1,
         name: "Asian Flank Steak",
